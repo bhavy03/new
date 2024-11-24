@@ -61,7 +61,7 @@ void addUser()
         printf("User added successfully.\n");
     }
 }
-
+// displays the user
 void displayUsers()
 {
     FILE *file = fopen(FILENAME, "r");
